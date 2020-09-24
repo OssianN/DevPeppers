@@ -27,8 +27,7 @@ const routes = (req, res) => {
     const data = romanConverter(value);
     res.end(JSON.stringify({ body: data }));
   } else {
-    res.statusCode = 404;
-    res.end();
+    view.staticFiles(req, res, 'error/404.html', 'text/html', 404);
   }
 };
 
