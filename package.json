@@ -1,0 +1,29 @@
+{
+  "name": "fall20-kata-fizzbuzz",
+  "version": "1.0.0",
+  "description": "fizzbuzz kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit './{,!(node_modules)/**}/*.spec.js'",
+    "lint": "eslint '**/*.js'",
+    "lint-watch": "nodemon --exec 'npm run lint --silent'",
+    "start": "node './server/index.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltsthlm/fall20-kata-fizzbuzz.git"
+  },
+  "author": "Devpeppers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltsthlm/fall20-kata-fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/saltsthlm/fall20-kata-fizzbuzz#readme",
+  "devDependencies": {
+    "eslint-config-salt": "^1.1.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
