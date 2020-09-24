@@ -1,0 +1,6 @@
+{
+    "extends": "salt",
+    "rules": {
+      "no-ternary": 0
+    }
+  }
