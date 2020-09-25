@@ -7,7 +7,7 @@
     "test": "mocha --exit './{,!(node_modules)/**}/*.spec.js'",
     "lint": "eslint '**/*.js'",
     "lint-watch": "nodemon --exec 'npm run lint --silent'",
-    "start": "node './server/index.js'"
+    "start": "node './index.js'"
   },
   "repository": {
     "type": "git",
